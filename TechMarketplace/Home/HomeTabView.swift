@@ -20,17 +20,17 @@ struct HomeTabView: View {
                     Image(systemName: "house.fill")
             }
             
-            Text("Search")
+            SearchView()
                 .tabItem {
                     Image(systemName: "magnifyingglass")
             }
             
-            Text("Cart")
+            CartView()
                 .tabItem {
                     Image(systemName: "cart")
             }
             
-            Text("Profile")
+            ProfileView()
                 .tabItem {
                     Image(systemName: "person")
             }
