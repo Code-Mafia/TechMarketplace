@@ -62,7 +62,7 @@ struct SignupView: View {
             .frame(maxWidth: .infinity)
         }
         .fullScreenCover(isPresented: $redirectToHome, content: {
-            HomeView(isPresented: $redirectToHome)
+            HomeTabView(isPresented: $redirectToHome)
         })
         .fullScreenCover(isPresented: $redirectToLogin, content: {
             LoginView()
