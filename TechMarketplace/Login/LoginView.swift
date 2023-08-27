@@ -63,7 +63,7 @@ struct LoginView: View {
             .padding()
         }
         .fullScreenCover(isPresented: $redirectToHome, content: {
-            HomeView(isPresented: $redirectToHome)
+            HomeTabView(isPresented: $redirectToHome)
         })
         .fullScreenCover(isPresented: $redirectToSignup, content: {
             SignupView()

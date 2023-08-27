@@ -92,7 +92,7 @@ struct LoginOptionView: View {
             
         }
         .fullScreenCover(isPresented: $isSkipLogin, content: {
-            HomeView(isPresented: $isSkipLogin)
+            HomeTabView(isPresented: $isSkipLogin)
         })
         .fullScreenCover(isPresented: $login, content: {
             LoginView()

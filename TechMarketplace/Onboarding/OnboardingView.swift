@@ -54,7 +54,7 @@ struct OnboardingView: View {
         .bold()
         .foregroundColor(.white)
         .fullScreenCover(isPresented: $redirectToHome) {
-            HomeView(isPresented: $redirectToHome)
+            HomeTabView(isPresented: $redirectToHome)
         }
         .fullScreenCover(isPresented: $redirectToLoginOption) {
             LoginOptionView()
